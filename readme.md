@@ -2,4 +2,4 @@
 
 Arbetsdokument angående projektet dbstream.
 
-[Inledande dokumentation](inledande_dokumentation.md)
+[Inledande dokumentation](dokumentation/inledande.md)
