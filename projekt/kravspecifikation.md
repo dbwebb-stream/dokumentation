@@ -46,7 +46,7 @@ Projektet förlöper inom en kurs på Blekinge Tekniska Högskola. Utvecklingen 
 3. Det vore bra att ha uppdelade flöden och kunna se historik ur ett enskilt flöde.
 
 ### Leverans
-Vid leverans skall produkten finnas som githubrepo och skall kunna demonstreras. Produkten bör vara uppsatt och körandes på en server.
+Vid leverans skall produkten finnas som githubrepo och skall vara uppsatt och körandes på en server.
 
 ### Delleveranser
 Tänkta delleveranser vid implementation av microarkitektur.
