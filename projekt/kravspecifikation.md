@@ -1,7 +1,4 @@
 # Kravspecifikation Dbstream
-v0.0.3 - Ändrade leveransvillkor. Utförligare inledning.
-v0.0.2 - Numrerade krav, optionella krav i egen sektion.
-v0.0.1 - Första versionen
 
 ## Bakgrund
 
@@ -72,3 +69,9 @@ Tänkta delleveranser vid implementation av microarkitektur.
 * Socket.io som abstraktion över websockets på frontend och backend.
 * Sqlite som databas för loggar.
 
+```
+Dokumentversioner:
+v0.0.3 - Ändrade leveransvillkor. Utförligare inledning.
+v0.0.2 - Numrerade krav, optionella krav i egen sektion.
+v0.0.1 - Första versionen
+```
