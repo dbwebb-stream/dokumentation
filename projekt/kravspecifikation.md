@@ -1,10 +1,16 @@
 # Kravspecifikation Dbstream
-version 0.0.2 - Numrerade krav, optionella krav i egen sektion.
+v0.0.3 - Ändrade leveransvillkor. Utförligare inledning.
+v0.0.2 - Numrerade krav, optionella krav i egen sektion.
+v0.0.1 - Första versionen
 
 ## Bakgrund
 
 ### Produkt
 En realtids dashboard/flöda över kommunikationskanaler inom dbwebb.
+
+För slutanvändaren skall produkten bestå av en dashboard som kan vara ett flöde av händelser i dbwebbs kommunikationskanaler. Alternativt kan det vara en dashboard som delar upp kommunikationskanaler i separata flöden. I alla varianter syftar dbstream till att samla dbwebbs kommunikationskanaler, som spänner över flera olika tjänster och sociala medier, till ett enda flöde.
+
+Dbstream-projektet är dock inte bara en dashboard. För att kunna presentera kommunikationsflöden från flera olika kanaler skall det finnas en backend som står för insamlandet av olika flöden och presenterar detta på ett lättkonsumerat sätt för en frontend.
 
 Projektet skall vara ett opensource-projekt med MIT-licens.
 
@@ -12,6 +18,8 @@ Se även [projektbeskrivning](projektbeskrivning.md).
 
 ### Användare
 Produkten riktar sig både till slutanvändare av dashboard och till utvecklare som vill utöka produkten eller använda dess tjänster i befintlig sajt.
+
+Kraven från de två tänkta användargrupper är olika, slutanvändaren förväntar sig en enkel och välfungerande dashboard medan en utvecklare förväntar sig dokumentation och utbyggbarhet. Tanken är att tillgodose bägge dessa användargrupper med en viss övervikt på utvecklare.
 
 Se även [projektbeskrivning](projektbeskrivning.md).
 
