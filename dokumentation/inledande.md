@@ -21,6 +21,7 @@ Det skickas jsonobjekt över websockets. Jsonobjekten innehåller en normalisera
 ### Preliminär struktur
 ```
 service: irc/gitter/twitter etc
+serviceId: sträng som identifierar en lyssnartjänst unikt, tex "irc_putte_v0.0.1"
 time: unix tid
 to: kanal för irc, sökord för twitter, gitterkanal etc
 from: vem som skickade meddelandet
@@ -44,11 +45,13 @@ Time skall alltid innehålla en tidsstämpel, tillhandahålls ingen ur det avlys
 ```json
 {
     "service": "twitter",
+    "serviceId": "twitter_litemerafrukt_v0.0.1",
     "time": 1301874515,
     "to": null,
     "from": "OldGREG85",
     "fromImageUrl": "http://a1.twimg.com/profile_images/455128973/gCsVUnofNqqyd6tdOGevROvko1_500_normal.jpg",
     "message": "RT @PostGradProblem: In preparation for the NFL lockout, I will be spending twice as much time analyzing my fantasy baseball team during ...",
+    "meta": null,
     "original": {
           "text": "RT @PostGradProblem: In preparation for the NFL lockout, I will be spending twice as much time analyzing my fantasy baseball team during ...",
           "truncated": true,
