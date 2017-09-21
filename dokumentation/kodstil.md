@@ -4,9 +4,9 @@ Jag har försökt skriva i en pragmatisk funktionell stil med support av ramda (
 Funktioner beskrivs med Hindley-Milner funktionssignaturer. Dessa är koncisare och lättare att underhålla än klassiska jsdoc-signaturer. Dessutom fungerar de bättre än klassisk jsdoc vid tex currying.
 
 Läs mer om Hindly-Milner:
-[https://drboolean.gitbooks.io/mostly-adequate-guide/content/ch7.html](https://drboolean.gitbooks.io/mostly-adequate-guide/content/ch7.html)
-[https://github.com/ramda/ramda/wiki/Type-Signatures](https://github.com/ramda/ramda/wiki/Type-Signatures)
-[http://www.codecommit.com/blog/scala/what-is-hindley-milner-and-why-is-it-cool](http://www.codecommit.com/blog/scala/what-is-hindley-milner-and-why-is-it-cool)
+* [https://drboolean.gitbooks.io/mostly-adequate-guide/content/ch7.html](https://drboolean.gitbooks.io/mostly-adequate-guide/content/ch7.html)
+* [https://github.com/ramda/ramda/wiki/Type-Signatures](https://github.com/ramda/ramda/wiki/Type-Signatures)
+* [http://www.codecommit.com/blog/scala/what-is-hindley-milner-and-why-is-it-cool](http://www.codecommit.com/blog/scala/what-is-hindley-milner-and-why-is-it-cool)
 
 ## Rena funktioner
 * Använd implied return.
