@@ -22,7 +22,7 @@ Det skickas jsonobjekt över websockets. Jsonobjekten innehåller en normalisera
 ```
 service: irc/gitter/twitter etc
 serviceId: sträng som identifierar en lyssnartjänst unikt, tex "irc_putte_v0.0.1"
-time: unix tid
+time: unix tid i millisekunder
 to: kanal för irc, sökord för twitter, gitterkanal etc
 from: vem som skickade meddelandet
 fromImageUrl: url till bild på den som skickade meddelandet
@@ -46,7 +46,7 @@ Time skall alltid innehålla en tidsstämpel, tillhandahålls ingen ur det avlys
 {
     "service": "twitter",
     "serviceId": "twitter_litemerafrukt_v0.0.1",
-    "time": 1301874515,
+    "time": 1301874515000,
     "to": null,
     "from": "OldGREG85",
     "fromImageUrl": "http://a1.twimg.com/profile_images/455128973/gCsVUnofNqqyd6tdOGevROvko1_500_normal.jpg",
