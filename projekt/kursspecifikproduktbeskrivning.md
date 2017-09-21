@@ -8,7 +8,7 @@ E-mail: mos@dbwebb.se
 ## Leverantör/elev:
 Namn: Anders Nygren
 Akronym: anng15
-Läser: Webbprogrammering 120p, distans
+ Webbprogrammering 120p, distans
 
 ## Bakgrund
 
@@ -115,7 +115,7 @@ Leverans kommer att ske senast den 20/10 -17. Leveransen sker som githubrepo sam
 
 Delleveranser kommer att ske löpande med 1-2v mellanrum från och med 21/9 -17.
 
-För detaljerad kravlista se (https://github.com/litemerafrukt/dbstream_dokumentation/blob/master/projekt/kravspecifikation.md)[https://github.com/litemerafrukt/dbstream_dokumentation/blob/master/projekt/kravspecifikation.md]
+För detaljerad kravlista se https://github.com/litemerafrukt/dbstream_dokumentation/blob/master/projekt/kravspecifikation.md
 
 
 ```
