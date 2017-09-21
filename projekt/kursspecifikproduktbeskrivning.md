@@ -1,14 +1,14 @@
 # Kravspecifikation Dbstream
 
 ## Kund
-Namn: dbwebb
-Kontaktperson: Mikael Roos
+Namn: dbwebb  
+Kontaktperson: Mikael Roos  
 E-mail: mos@dbwebb.se
 
 ## Leverantör/elev:
-Namn: Anders Nygren
-Akronym: anng15
- Webbprogrammering 120p, distans
+Namn: Anders Nygren  
+Akronym: anng15  
+Program: Webbprogrammering 120p, distans
 
 ## Bakgrund
 
