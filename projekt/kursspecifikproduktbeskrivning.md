@@ -60,7 +60,7 @@ Projektet förlöper inom en kurs på Blekinge Tekniska Högskola. Utvecklingen 
 2. Det vore bra om samlingsservern har ett administrationsinterface för att lägga till nya tjänster.
 3. Det vore bra om en samlingsserver hade ett REST-api för att kunna leverera information från loggen.
 
-#### Optionella krav
+### Optionella krav
 1. Det vore vore bra om flöden från twitter, instagram, facebook, youtube och github issues ingick.
 2. Det vore bra om dashboarden hämtade de senaste händelserna från en logg.
 3. Det vore bra att ha uppdelade flöden och kunna se historik ur ett enskilt flöde.
