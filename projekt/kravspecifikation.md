@@ -3,9 +3,9 @@
 ## Bakgrund
 
 ### Produkt
-En realtids dashboard/flöda över kommunikationskanaler inom dbwebb.
+En realtids dashboard över kommunikationskanaler inom dbwebb.
 
-För slutanvändaren skall produkten bestå av en dashboard som kan vara ett flöde av händelser i dbwebbs kommunikationskanaler. Alternativt kan det vara en dashboard som delar upp kommunikationskanaler i separata flöden. I alla varianter syftar dbstream till att samla dbwebbs kommunikationskanaler, som spänner över flera olika tjänster och sociala medier, till ett enda flöde.
+För slutanvändaren skall produkten bestå av en dashboard som kan vara ett flöde av händelser i dbwebbs kommunikationskanaler. Alternativt kan det vara en dashboard som även delar upp kommunikationskanaler i separata flöden. I alla varianter syftar dbstream till att samla dbwebbs kommunikationskanaler, som spänner över flera olika tjänster och sociala medier, till ett enda flöde.
 
 Dbstream-projektet är dock inte bara en dashboard. För att kunna presentera kommunikationsflöden från flera olika kanaler skall det finnas en backend som står för insamlandet från olika flöden. Detta ska presenteras på ett lättkonsumerat sätt för en frontend.
 
@@ -19,6 +19,16 @@ Produkten riktar sig både till slutanvändare av dashboard och till utvecklare 
 Kraven från de två tänkta användargrupper är olika, slutanvändaren förväntar sig en enkel och välfungerande dashboard medan en utvecklare förväntar sig dokumentation och utbyggbarhet. Tanken är att tillgodose bägge dessa användargrupper med en viss övervikt på utvecklare.
 
 Se även [projektbeskrivning](projektbeskrivning.md).
+
+### Projektfokus
+Projektets fokus är backend och specifikt att implementera en arkitektur att bygga på. Tanken med microarkitekturen är att delarna skall vara små och utbytbara. Underhåll kan med fördel ske genom att helt förkasta en äldre implementationen och ersätta med en ny.
+
+### Öppenhet och säkerhet
+I arkitekturen kan tänkas att man bygger in autentisering av microtjänster osv. I detta projekt kommer detta inte att implementeras. Den tänkta arkitekturen är skapad så att detta kan läggas till progressivt i efterhand.
+
+Vad gäller den flödesförenande frontservern måste denna ha autentisering om man implementerar att kunna lägga till och administrera tjänster. För att komma runt detta kommer frontservern i sin första implementation att konfigureras med config-filer och därigenom skyddas med sedvanlig server autentisering.
+
+Streamen från frontservern skall, med tanke att denna kommer att vara öppen och fri att konsumera, bara innehålla flöden från öppna kanaler.
 
 ### Organisation
 Projektet förlöper inom en kurs på Blekinge Tekniska Högskola. Utvecklingen sker öppet på github och projektet organiseras som ett eller flera github-repon.
@@ -71,6 +81,7 @@ Tänkta delleveranser.
 
 ```
 Dokumentversioner:
+v0.0.5 - Lagt till projektfokus och säkerhet.
 v0.0.4 - Högre prioritet på microtjänstarkitektur.
 v0.0.3 - Ändrade leveransvillkor. Utförligare inledning.
 v0.0.2 - Numrerade krav, optionella krav i egen sektion.
