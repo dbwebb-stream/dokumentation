@@ -1,5 +1,5 @@
 # Kodstil
-Jag har försökt skriva i en pragmatisk funktionell stil med support av ramda (motsvarar underscore/lodash), ramda-fantasy eller folktale (användbara funktorer och monader som Maybe, Either/Result och Task), samt most.js (monadic streams).
+Jag har försökt skriva i en pragmatisk funktionell stil med support av ramda (motsvarar underscore/lodash), ramda-fantasy eller folktale (användbara funktorer och monader som Maybe, Either/Result och Task), samt most.js (monadic streams jmf rxjs).
 
 Funktioner beskrivs med Hindley-Milner funktionssignaturer. Dessa är koncisare och lättare att underhålla än klassiska jsdoc-signaturer. Dessutom fungerar de bättre än klassisk jsdoc vid tex currying.
 

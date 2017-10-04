@@ -1,13 +1,13 @@
 # Kravspecifikation Dbstream
 
 ## Kund
-Namn: dbwebb  
-Kontaktperson: Mikael Roos  
+Namn: dbwebb
+Kontaktperson: Mikael Roos
 E-mail: mos@dbwebb.se
 
 ## Leverantör/elev:
-Namn: Anders Nygren  
-Akronym: anng15  
+Namn: Anders Nygren
+Akronym: anng15
 Program: Webbprogrammering 120p, distans
 
 ## Bakgrund
@@ -111,7 +111,11 @@ Det är tydligt att den estimerade kostnaden för samtliga features överstiger 
 ## Kunderbjudande
 Jag kommer att leverera ett system för att samla flöden från olika sociala medier till ett flöde som presenteras på en enkel dashboard. Systemet är byggt med en arkitektur som skall vara utbyggbar. I sin första, och föreliggande, version kommer systemet att inkludera flöden för IRC och Gitter.
 
-Leverans kommer att ske senast den 20/10 -17. Leveransen sker som githubrepo samt med systemet i drift. Om du som kund till mig har levererat en möjlig driftsmiljö med node.js > 8.0.0 installerat kommer systemet att tas i drift där. Annars kommer ett demo att sättas upp. I leveransen ingår inte att konfigurera eventuella befintliga webbservrar för att dirigera trafik genom dessa.
+Leverans kommer att ske senast den 20/10 -17. Leveransen sker som ett eller flera githubrepon samt med systemet i drift.
+
+Om kunden har levererat en möjlig driftsmiljö med node.js > 8.0.0 installerat, senast den 11/10 -17, kommer systemet att tas i drift där. Annars kommer ett demo/testmiljö att sättas upp och göras tillgänglig till kunden. I leveransen ingår inte att konfigurera eventuella befintliga webbservrar för att dirigera trafik genom dessa.
+
+I leveransen skall ingå ett enkelt dokument som beskriver installation och driftsättning av projektets delar.
 
 Delleveranser kommer att ske löpande med 1-2v mellanrum från och med 21/9 -17.
 
@@ -120,6 +124,7 @@ För detaljerad kravlista se https://github.com/litemerafrukt/dbstream_dokumenta
 
 ```
 Dokumentversioner:
+v1.1.0 - Förtydligade leveransvilkor.
 v1.0.0 - Första versionen.
 ```
 

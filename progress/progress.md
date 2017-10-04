@@ -39,6 +39,21 @@ Totaltid: 68h
 ## v38
 
 * IRC-bot githubrepo, demo/test driftsättning: 3h
-* Projektbeskrivningssammanställning med backlog och framtida estimat:
+* Projektbeskrivningssammanställning med backlog och framtida estimat: 5h
+* En terminalklient för att testa inför frontserver: 4h
 
-Totaltid:
+Totaltid: 80h
+
+## v39
+
+* Publicera terminalklienten på github: 1h
+* Utforskande av gitter api inklusive en enkel terminalklient: 18h
+
+### Kommentar:
+
+Gitters api-dokumentation är i beta och där finns både brister och rena felaktigheter. Detta resulterar i att extra tid behövs för att utforska api:et genom att läsa källkod och att skriva testscript.
+
+Total: 99h
+
+## v40
+
