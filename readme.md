@@ -1,5 +1,5 @@
 # Dbstream dokumentation
 
-Arbetsdokument angående projektet dbstream.
+Arbetsdokument och dokumentation i projektet dbwebb-stream.
 
 [Inledande dokumentation](dokumentation/inledande.md)

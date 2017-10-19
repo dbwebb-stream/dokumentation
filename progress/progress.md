@@ -57,3 +57,17 @@ Total: 99h
 
 ## v40
 
+* Gitter till websocket server: 9h
+* Frontserver/funnel: 9h
+
+Total: 118h
+
+## v42
+
+* Administrationsystem för samtliga ingående servrar: 8h
+* Frontend: 9h
+* Installationsdokumentation: 6h
+* Githubadministration: 2h
+* Kundpresentation: 2h
+
+Total: 145h
